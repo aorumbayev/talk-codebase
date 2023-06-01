@@ -1,6 +1,6 @@
 import os
 import requests
-import tqdm
+from tqdm import tqdm
 
 import fire
 import yaml
