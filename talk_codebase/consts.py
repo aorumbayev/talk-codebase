@@ -17,7 +17,7 @@ DEFAULT_CONFIG = {
     "chunk_overlap": "50",
     "k": "4",
     "model_name": "gpt-3.5-turbo",
-    "model_path": "models/ggml-gpt4all-j-v1.3-groovy.bin",
+    "model_path": "models/ggml-gpt4all-l13b-snoozy.bin",
     "model_type": MODEL_TYPES["OPENAI"],
 }
 

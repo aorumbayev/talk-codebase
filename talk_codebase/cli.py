@@ -10,7 +10,7 @@ from talk_codebase.consts import DEFAULT_CONFIG
 
 config_path = os.path.join(os.path.expanduser("~"), ".talk_codebase_config.yaml")
 
-DEFAULT_MODEL_URL = "https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin"
+DEFAULT_MODEL_URL = "https://gpt4all.io/models/ggml-gpt4all-l13b-snoozy.bin"
 
 
 def get_config():

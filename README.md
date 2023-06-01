@@ -18,7 +18,7 @@ not for production use.
 To install `talk-codebase`, you need to have Python 3.9 and an OpenAI API
 key [api-keys](https://platform.openai.com/account/api-keys).
 Additionally, if you want to use the GPT4All model, you need to download
-the [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin) model. If you prefer a
+the [ggml-gpt4all-l13b-snoozy.bin](https://gpt4all.io/models/ggml-gpt4all-l13b-snoozy.bin) model. If you prefer a
 different model, you can download it from [GPT4All](https://gpt4all.io) and configure path to it in the configuration
 and specify its
 path in the configuration. If you want some files to be ignored, add them to .gitignore.
@@ -49,32 +49,31 @@ the path to the configuration file.
 # The OpenAI API key. You can get it from https://beta.openai.com/account/api-keys
 api_key: sk-xxx
 # maximum overlap between chunks. It can be nice to have some overlap to maintain some continuity between chunks
-chunk_overlap: '50'
+chunk_overlap: "50"
 # maximum size of a chunk
-chunk_size: '500'
+chunk_size: "500"
 # number of samples to generate for each prompt.
-k: '4'
+k: "4"
 # maximum tokens for the LLMs
-max_tokens: '1048'
+max_tokens: "1048"
 # token limit for the LLM model only OpenAI
 model_name: gpt-3.5-turbo
 # path to the llm file on disk.
-model_path: models/ggml-gpt4all-j-v1.3-groovy.bin
+model_path: models/ggml-gpt4all-l13b-snoozy.bin
 # type of the LLM model. It can be either local or openai
 model_type: openai
-
 ```
 
 ## The supported extensions:
 
-- [x] `.csv`
-- [x] `.doc`
-- [x] `.docx`
-- [x] `.epub`
-- [x] `.md`
-- [x] `.pdf`
-- [x] `.txt`
-- [x] `popular programming languages`
+-   [x] `.csv`
+-   [x] `.doc`
+-   [x] `.docx`
+-   [x] `.epub`
+-   [x] `.md`
+-   [x] `.pdf`
+-   [x] `.txt`
+-   [x] `popular programming languages`
 
 ## Contributing
 
