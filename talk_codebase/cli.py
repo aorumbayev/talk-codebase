@@ -35,6 +35,8 @@ def download_model(url, path):
     total_size_in_bytes = int(response.headers.get("content-length", 0))
     progress_bar = tqdm(total=total_size_in_bytes, unit="iB", unit_scale=True)
 
+    os.makedirs(os.path.dirname(path), exist_ok=True)  # ensure the directory exists
+
     with open(path, "wb") as f:
         for chunk in response.iter_content(chunk_size=1024):
             progress_bar.update(len(chunk))
