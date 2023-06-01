@@ -21,6 +21,7 @@ questionary = "^1.10.0"
 gpt4all = "^0.2.3"
 sentence-transformers = "^2.2.2"
 unstructured = "^0.6.10"
+tqdm = "^4.65.0"
 
 
 [build-system]
